@@ -1,7 +1,7 @@
 const Projects = () => {
     return (
         
-        <div class="h-screen mt-20 w-3/4 mx-auto border-b" id="projects">
+        <div class=" mt-20 w-3/4 mx-auto border-b" id="projects">
             <h1 class="my-10 text-center text-3xl text-decoration-line: underline ">Projects</h1>
             <div class="flex justify-evenly  h-1/4 mt-40">
                 <div class="border-2 w-1/4 rounded-3xl ">

@@ -1,6 +1,6 @@
 const Experience = () => {
     return (
-        <div class="h-screen border-b w-3/4 m-auto" id="experience">
+        <div class=" border-b w-3/4 m-auto" id="experience">
             <h1 class="my-20 text-center text-3xl text-decoration-line: underline ">Experience</h1>
 
             <ul class='mt-40 mx-auto text-center sm:text-lg'>
