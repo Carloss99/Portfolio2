@@ -4,7 +4,11 @@ import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Experience from './components/Experience'
 import Contact from './components/Contact'
-import { Animator, ScrollContainer, ScrollPage,FadeIn,FadeOut,Fade,batch, Move, Sticky, StickyIn, MoveIn, MoveOut } from 'react-scroll-motion'
+import { Animator, ScrollContainer, ScrollPage,FadeIn,FadeOut,Fade,batch, Move, Sticky, StickyIn, MoveIn, MoveOut, ZoomIn} from 'react-scroll-motion'
+
+
+
+
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow:ital,wght@1,500&family=Cinzel+Decorative&family=Dancing+Script:wght@500&family=Josefin+Sans:ital,wght@1,300&family=Rubik+Iso&family=Shantell+Sans:wght@300&family=Special+Elite&family=VT323&display=swap');
 </style>
@@ -42,27 +46,32 @@ function App() {
             </Animator>
             </ScrollPage>
             
-        <ScrollPage >
-          <Animator animation={batch(Move(-2000,0,3000,0))}>
+
+
+            <ScrollPage>
+          <Animator animation={batch(MoveIn(-1000,0), MoveOut(3000, 0))}>
             <Skills/>
           </Animator>
-        </ScrollPage>  
+          
+          </ScrollPage>
+            
+           
           
         <ScrollPage>
-          <Animator animation={batch(MoveIn(-1200,0), MoveOut(3000, 0))}>
+          <Animator animation={batch(MoveIn(3000,0), MoveOut(-1000, 0))}>
             <Projects/>
           </Animator>
           
           </ScrollPage>
 
         <ScrollPage>
-          <Animator>
+          <Animator animation={batch(Fade(), Move(0,1000,0,-1500), Sticky())}>
             <Experience/>
           </Animator>
         </ScrollPage>
 
         <ScrollPage>
-          <Animator>
+          <Animator animation={batch(StickyIn(), FadeIn(), ZoomIn())}>
             <Contact/>
           </Animator>
         </ScrollPage>
