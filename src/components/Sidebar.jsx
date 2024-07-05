@@ -10,7 +10,7 @@ const Sidebar = () => {
     
 
     return(
-        <div class="absolute top-5 left-5 text-white sm:text-xl text-sm">
+        <div class="absolute top-5 left-5 sm:text-xl text-sm">
             <UilBars onClick={handleNav}/>
             {nav ? (
                 <div class="ml-4 mt-10 flex flex-col sm:gap-24 gap-2" >

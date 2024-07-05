@@ -9,24 +9,15 @@ import { Animator, ScrollContainer, ScrollPage,FadeIn,FadeOut,Fade,batch, Move, 
 
 
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow:ital,wght@1,500&family=Cinzel+Decorative&family=Dancing+Script:wght@500&family=Josefin+Sans:ital,wght@1,300&family=Rubik+Iso&family=Shantell+Sans:wght@300&family=Special+Elite&family=VT323&display=swap');
 
-<link rel="stylesheet" href="/App.css"/>
-
-
-</style>
 
 function App() {
-  const font = {
-    fontFamily: "'Josefin Sans', sans-serif"
-}
+  
 
   return (
     <>
-    
-    
-    <div class="bg-slate-950 text-zinc-400" id="home">
+  
+    <div class="bg-slate-950 text-sky-500" id="home">
         
         <ScrollContainer>
           <ScrollPage>
@@ -42,7 +33,7 @@ function App() {
 
               <SideBar/>
 
-              <div style={font} class="text-zinc-300 text-md sm:text-3xl absolute top-0 sm:left-40 sm:mt-60 sm:mr-60 mt-28 mx-28 w-2/4 sm:w-96" >My name is Carlos Figueroa. I am a Softare Engineer.</div>
+              <div class="text-md sm:text-3xl absolute top-0 sm:left-40 sm:mt-60 sm:mr-60 mt-28 mx-28 w-2/4 sm:w-96" >My name is Carlos Figueroa. I am a Softare Engineer.</div>
 
             </div>
             
