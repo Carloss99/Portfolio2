@@ -10,26 +10,26 @@ const Sidebar = () => {
     
 
     return(
-        <div class="absolute top-5 left-5 text-white text-xl">
+        <div class="absolute top-5 left-5 text-white sm:text-xl text-sm">
             <UilBars onClick={handleNav}/>
             {nav ? (
-                <div class="ml-4 mt-10 flex flex-col gap-20 text-lg" >
+                <div class="ml-4 mt-10 flex flex-col sm:gap-24 gap-2" >
                     <a href="#home">
-                        <span class="ml-3">Home</span>
+                        <span >Home</span>
                     </a>
                     <a href="#skills">
-                        <span class="ml-3">Skills</span>
+                        <span >Skills</span>
                     </a>
                     <a href="#projects">
-                        <span class="ml-3">Projects</span>
+                        <span >Projects</span>
                     </a>
 
                     <a href="#experience">
-                        <span class="ml-3">Experience</span>
+                        <span >Experience</span>
                     </a>
 
                     <a href="#contact">
-                        <span class="ml-3">Contact</span>
+                        <span >Contact</span>
                     </a>
                     
                 </div>

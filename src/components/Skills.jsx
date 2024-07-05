@@ -10,7 +10,7 @@ const Skills = () => {
                     
             
             
-                        <ul class="flex flex-wrap justify-evenly w-1/2 m-auto gap-28 mt-20 text-xl ">
+                        <ul class="flex flex-wrap justify-evenly w-1/2 m-auto sm:gap-28 gap-10 mt-20 sm:text-xl text-lg">
                             <li>Html</li>
                             <li>Css</li>
                             <li>Javascript</li>
