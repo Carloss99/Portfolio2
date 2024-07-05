@@ -1,0 +1,9 @@
+@media screen and (maxWidth: 400px){
+    #headerbg{
+        height:20vh;
+    }
+
+    html{
+        color:red;
+    }
+}
