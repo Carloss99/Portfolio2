@@ -1,9 +1,9 @@
 
-
+// skills component
 const Skills = () => {
     return(
-
-        <div class=" my-10 sm:w-3/4 m-auto " id="skills">
+        // container 
+        <div class=" sm:w-3/4 m-auto my-20 bg-zinc-800 rounded-3xl p-10 " id="skills">
         
             
                         <h1 class=" text-center text-3xl text-decoration-line: underline ">Skills</h1>

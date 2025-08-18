@@ -1,20 +1,25 @@
 
 import { UilLinkedin, UilGithub} from '@iconscout/react-unicons'
-
+//contact component
 const Contact = () => {
     return (
-        <div class="sm:w-full" id="contact">
-            <h1 class="my-20 mx-auto text-center sm:text-4xl text-2xl text-decoration-line: underline ">Contact</h1>
+        //Container div
+        <div className="sm:w-3/4 mx-auto p-10 bg-zinc-800 rounded-3xl " id="contact">
+            {/* header */}
+            <h1 className=" mx-auto mb-10 text-center sm:text-4xl text-2xl text-decoration-line: underline ">Contact</h1>
 
-            <ul class='flex justify-between gap-20'>
+            {/* list to hold contact links */}
+            <ul className='flex justify-around '>
+
                 <div>
-                    <UilLinkedin class='inline'/>
-                    <a href="https://www.linkedin.com/in/carlosfigueroa99" class='sm:hover:text-2xl hover:text-xl mx-1'>LinkedIn</a>
+                    <UilLinkedin className='inline'/>
+                    <a href="https://www.linkedin.com/in/carlosfigueroa99" className='transition duration-300 ease-in sm:hover:text-2xl hover:text-xl hover:text-blue-400 mx-2'>LinkedIn</a>
                 </div>
 
+
                 <div>
-                    <UilGithub class='inline'/>
-                    <a href='https://github.com/Carloss99' class='sm:hover:text-2xl hover:text-xl mx-1'>Github</a>
+                    <UilGithub className='inline'/>
+                    <a href='https://github.com/Carloss99' className='transition duration-300 ease-in sm:hover:text-2xl hover:text-xl hover:text-zinc-600 mx-2'>Github</a>
                 </div>
 
             </ul>
