@@ -3,14 +3,14 @@
 const Skills = () => {
     return(
         // container 
-        <div class=" sm:w-3/4 m-auto my-20 bg-zinc-800 rounded-3xl p-10 " id="skills">
+        <div class=" w-full" id="skills">
         
             
-                        <h1 class=" text-center text-3xl text-decoration-line: underline ">Skills</h1>
+                        <h1 class=" text-center text-2xl text-decoration-line:underline pb-10">Skills</h1>
                     
             
             
-                        <ul class="flex flex-wrap justify-evenly sm:w-1/2 w-3/4 m-auto sm:gap-24 gap-12 mt-20 sm:text-xl text-lg">
+                        <ul class="flex flex-wrap justify-evenly m-auto   ">
                             <li>Html</li>
                             <li>Css</li>
                             <li>Javascript</li>

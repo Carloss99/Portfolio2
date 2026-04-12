@@ -4,12 +4,10 @@ import { UilLinkedin, UilGithub} from '@iconscout/react-unicons'
 const Contact = () => {
     return (
         //Container div
-        <div className="sm:w-3/4 mx-auto p-10 bg-zinc-800 rounded-3xl " id="contact">
-            {/* header */}
-            <h1 className=" mx-auto mb-10 text-center sm:text-4xl text-2xl text-decoration-line: underline ">Contact</h1>
+        <div className="w-1/2  " id="contact">
 
             {/* list to hold contact links */}
-            <ul className='flex justify-around '>
+            <ul className='flex place-content-evenly '>
 
                 <div>
                     <UilLinkedin className='inline'/>

@@ -19,7 +19,7 @@ const Projects = () => {
         backgroundPosition: 'center',
         backgroundRepeat:'none',
         borderRadius: '50px',
-        height: '60vh',
+        height: '30vh',
         border: '1px solid grey',
         cursor: 'pointer',
         flex: '0.11',
@@ -56,15 +56,15 @@ const Projects = () => {
 
     return (
         // container for projects component
-        <div className="my-30 m-auto sm:w-3/4 rounded-3xl h-3/4 bg-zinc-800 p-10" id="projects">
+        <div className=" w-full " id="projects">
 
 
             {/* Projects header */}
-            <h1 className=" text-center text-3xl text-decoration-line: underline ">Projects</h1>
+            <h1 className=" text-center text-2xl text-decoration-line: underline p-10">Projects</h1>
 
 
             {/* container for projects */}
-            <div  className='flex justify-center m-auto container'>
+            <div  className='flex justify-center justify-evenly w-full container'>
 
                 {/* maps projects and dispalys */}
                 {panels.map((proj,index) => (

@@ -16,15 +16,15 @@ function App() {
   
 
   return (
-    <>
+    
   
-    <div class="bg-zinc-900 text-zinc-200 pb-10" id="home">
+    <div class=" text-zinc-900 h-full" id="home">
 
-        <div class="bg-black" >
+        <div class="bg-black">
 
 
         {/* background wallpaper */}
-        <div class="sm:h-screen h-80" style={{
+        <div class="h-80" style={{
         
           backgroundImage :"url('https://plus.unsplash.com/premium_photo-1678565879444-f87c8bd9f241?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
           backgroundSize :"cover",
@@ -41,18 +41,19 @@ function App() {
           cursorCharacter="|"
         />
 
-        </div>
+        </div >
         
       
-        <Skills/>
-        <Projects/>
-        <Experience/>
-        <Contact/>
-
-
+        <div class="h-full flex flex-col justify-evenly items-center">
+          <Skills/>
+          <Projects/>
+          <Contact/>
         </div>
+
+
+    </div>
     
-    </>
+    
   )
 }
 
